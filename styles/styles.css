@@ -218,22 +218,22 @@ body {
   position: relative;
   background-color: #258bd6;
   color: #fff;
-  padding: 22px;
   margin-bottom: 8px;
   border-radius: 5px;
 }
 
 .form-check-label {
-  position: absolute;
-  left: 8%;
-  bottom: 22%;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15px;
 }
 
 .form-check-input {
   position: absolute;
   cursor: pointer;
   left: 8%;
-  bottom: 32%;
+  bottom: 36%;
 }
 
 .reveal-answer {
