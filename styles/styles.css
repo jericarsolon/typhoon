@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* FONTS */
+
+@font-face {
+  font-family: "Corporative";
+  src: url("/fonts/corporative/CorporativeRegular.woff2") format("woff2");
+  font-weight: normal; /* Regular */
+}
+
+@font-face {
+  font-family: "Corporative";
+  src: url("/fonts/corporative/CorporativeMedium.woff") format("woff");
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: "Corporative";
+  src: url("/fonts/corporative/CorporativeBold.woff") format("woff");
+  font-weight: bold; /* Bold */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/montserrat.regular.ttf") format("tff");
+  font-weight: normal; /* Bold */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/montserrat.bold.ttf") format("tff");
+  font-weight: bold; /* Bold */
+}
+
+* {
+  font-family: "Poppins";
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.cyclone {
+  width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  z-index: -1000;
+}
+
+/* NAVBAR */
+.logo {
+  font-family: "Corporative";
+  /* text-shadow: 1px 1px 1px #000; */
+}
+
+.social-link {
+  font-family: "Poppins";
+  font-size: medium;
+  /* text-shadow: 1px 1px 1px #000; */
+  margin-inline: 10px;
+}
+
+.social-link:hover {
+  color: #258bd6;
+}
+
+.dropdown-hover:hover {
+  color: #258bd6;
+  background-color: transparent;
+}
+
+/* HEADER */
+.header-main {
+  height: 615px;
+}
+
+.header-container {
+  padding-block: 127px;
+}
+
+.header-title,
+.outcomes-title,
+.outcome {
+  font-family: "Montserrat";
+  text-shadow: 1px 1px 1px #000;
+}
+
+.title-color-sd {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.span-title-color-sd {
+  color: #258bd6;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.span-title-color {
+  color: #258bd6;
+}
+
+/* HOME */
+.about-description,
+.card-description,
+.overview-description,
+.overview-main,
+.lesson1-description,
+.description {
+  text-align: justify;
+}
+
+.btn-readmore {
+  border: 1px solid #258bd6;
+  color: #258bd6;
+}
+
+.btn-readmore:hover {
+  background-color: #258bd6;
+  color: #fff;
+}
+
+/* TABLE */
+.thead-tb-bg {
+  background-color: #258bd6;
+  color: #fff;
+}
+
+/* BUTTON NAV  */
+.btn {
+  font-family: "Poppins";
+}
+
+.btn-about {
+  background-color: #258bd6;
+  color: #fff;
+
+  transition: 0.5s;
+}
+
+.btn-about:hover {
+  background-color: #fff;
+  color: #258bd6;
+}
+
+.btn-started {
+  /* border: 1px solid #fff; */
+  background-color: #fff;
+  color: #258bd6;
+  transition: 0.5s;
+}
+
+.btn-started:hover {
+  background-color: #258bd6;
+}
+
+.btn-exam {
+  background-color: #258bd6;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn-exam:hover {
+  background-color: #fff;
+  color: #258bd6;
+  border: 1px solid #258bd6;
+}
+
+/* MAIN CONTENT */
+
+/* ABOUT*/
+.bg-img-hongkong {
+  object-fit: cover;
+  object-position: 100% 80%;
+}
+
+.background-img-carousel {
+  object-fit: cover;
+  object-position: 100% 60%;
+}
+
+/* CAROUSEL */
+
+/* QUIZ */
+.container {
+  margin-top: 50px;
+}
+.card {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.items {
+  color: #258bd6;
+  border: 1px solid gray;
+}
+
+.form-check {
+  position: relative;
+  background-color: #258bd6;
+  color: #fff;
+  padding: 22px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.form-check-label {
+  position: absolute;
+  left: 8%;
+  bottom: 22%;
+}
+
+.form-check-input {
+  position: absolute;
+  cursor: pointer;
+  left: 8%;
+  bottom: 32%;
+}
+
+.reveal-answer {
+  width: 45%;
+  /* padding-inline: 40px; */
+}
+
+.reveal-score {
+  width: 45%;
+  /* padding-inline: 40px; */
+}
+
+/* ICONS */
+.header-title {
+  position: relative;
+}
+.close-icon {
+  padding: 5px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.3s;
+}
+
+.close-icon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+  .w-sm-100-modify {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-50-modify {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fs-lg-4 {
+    font-size: 1rem;
+  }
+}

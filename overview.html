@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Overview | Typhoon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <video autoplay muted loop class="video-background">
+      <source src="./vids/backgroundvideo.mp4" type="video/mp4" />
+    </video>
+
+    <div class="overlay">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-lg">
+          <!-- LOGO -->
+          <a class="navbar-brand fs-2 fw-bold logo" href="./">Typhoon</a>
+
+          <!-- TOGGLE BTN -->
+          <buttonS
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </buttonS>
+
+          <!-- SIDEBAR -->
+          <div
+            class="sidebar offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- SIDEBAR HEADER -->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5
+                class="offcanvas-title logo text-white"
+                id="offcanvasNavbarLabel"
+              >
+                Typhoon
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- SIDEBAR BODY -->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end fs-1 flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link social-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link social-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link social-link" href="./overview.html"
+                    >Overview</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link social-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Lessons</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-hover dropdown-item"
+                        href="./lessonone.html"
+                        >Lesson 1</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-hover dropdown-item"
+                        href="./lessontwo.html"
+                        >Lesson 2</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-hover dropdown-item"
+                        href="./lessonthree.html"
+                        >Lesson 3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- BANNER -->
+      <section
+        class="header d-flex justify-content-center align-items-center d-lg-flex justify-content-center align-items-center"
+      >
+        <div class="container-lg header-container">
+          <div class="row d-lg-flex justify-content-center">
+            <div class="col-lg-7 text-lg-center">
+              <h1 class="header-title fw-bold display-3">OVERVIEW</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="content overview-content">
+      <div class="wrapper bg-white">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col px-4 pt-4 p-lg-0 py-lg-5">
+              <div class="overview-main mt-4">
+                <img
+                  class="w-sm-100-modify w-lg-50-modify float-lg-start me-lg-4 mb-lg-4"
+                  src="./assets/tacloban.jpg"
+                  alt=""
+                />
+                <div class="overview-description mt-4">
+                  <div class="wrapper pt-3">
+                    <p class="animate__animated animated-element">
+                      Every year the Philippines is hit by typhoons. No part of
+                      the country is spared. All provinces have been visited by
+                      a typhoon at one time or the other. In recent years, the
+                      Philippines has been overwhelmed by powerful tropical
+                      cyclones.
+                    </p>
+                    <p class="animate__animated animated-element">
+                      One of the strongest typhoons in Philippine history, even
+                      worldwide, is Typhoon Haiyan which is locally known as
+                      Super Typhoon Yolanda. The most devastated place by
+                      Typhoon Yolanda was Tacloban City in Leyte. Shown above is
+                      an aftermath of the said typhoon. It is a category 5
+                      typhoon which has sustained wind speed of approximately
+                      235 kilometers per hour before its landfall. It caused a
+                      considerable amount of death of about 6, 300 people and
+                      greatly aﬀected the agriculture and infrastructure in
+                      Leyte as well in other parts of the country. The death
+                      toll of Super Typhoon Yolanda was intensiﬁed by the storm
+                      surge.
+                    </p>
+                    <p class="animate__animated animated-element">
+                      According to the Philippine Atmospheric, Geophysical, and
+                      Astronomical Services Administration (PAGASA), about 20
+                      tropical cyclones enter the Philippine Area of
+                      Responsibility each year. We have to be knowlwdgeabe about
+                      tropical cyclones if we want o prevent the loss of more
+                      lives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./animate.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

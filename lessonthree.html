@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Typhoon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <video autoplay muted loop class="video-background">
+      <source src="./vids/backgroundvideo.mp4" type="video/mp4" />
+    </video>
+
+    <div class="overlay">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-lg">
+          <!-- LOGO -->
+          <a class="navbar-brand fs-2 fw-bold logo" href="./">Typhoon</a>
+
+          <!-- TOGGLE BTN -->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- SIDEBAR -->
+          <div
+            class="sidebar offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- SIDEBAR HEADER -->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5
+                class="offcanvas-title logo text-white"
+                id="offcanvasNavbarLabel"
+              >
+                Typhoon
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- SIDEBAR BODY -->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end fs-1 flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link social-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link social-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link social-link" href="./overview.html"
+                    >Overview</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link social-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Lessons</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-hover dropdown-item"
+                        href="./lessonone.html"
+                        >Lesson 1</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-hover dropdown-item"
+                        href="/lessontwo.html"
+                        >Lesson 2</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-hover dropdown-item"
+                        href="/lessonthree.html"
+                        >Lesson 3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HEADER  -->
+      <section
+        class="header d-flex justify-content-center align-items-center d-lg-flex justify-content-center align-items-center"
+      >
+        <div class="container-lg header-container">
+          <div class="row d-lg-flex justify-content-center">
+            <div class="col-lg-7 text-lg-center">
+              <h1 class="header-title fw-bold display-3 text-white">
+                LESSON 3
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="content about-content" id="about">
+      <div class="wrapper bg-white">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col px-4 pt-5 p-lg-0 pt-lg-5">
+              <div class="wrapper">
+                <h2 class="content-title fw-bold display-5">
+                  Preparing for <span class="span-title-color">Typhoon</span>
+                </h2>
+                <p
+                  class="animate__animated animated-element about-description my-4"
+                >
+                  <strong>Landfall</strong> is an event where tropical cyclones
+                  move towards land after staying over bodies of water. PAGASA
+                  releases <strong>public storm warning signals</strong> in
+                  different areas of the country. The warning signals are put in
+                  effect before the onset of the meteorological condition. This
+                  is done to warn the people of a certain locality of the
+                  potential wind speed and strength of the typhoon. Public storm
+                  warning signals are numbered one to five depending on the wind
+                  speed and its impact.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="caption">
+                <h5>Table 1. Public storm warning signals from PAGASA</h5>
+              </div>
+              <table class="table text-center border border-black">
+                <thead>
+                  <tr>
+                    <th
+                      class="border border-black border-end thead-tb-bg"
+                      style="background-color: #258bd6; color: #fff"
+                    >
+                      Warning Signal
+                    </th>
+                    <th
+                      class="border border-black border-end"
+                      style="background-color: #258bd6; color: #fff"
+                    >
+                      Wind (kph)
+                    </th>
+                    <th
+                      class="border border-black border-end"
+                      style="background-color: #258bd6; color: #fff"
+                    >
+                      Impacts
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="border border-black border-end">1</td>
+                    <td class="border border-black border-end">30-60</td>
+                    <td class="border border-black border-end">
+                      no damage to very light damage
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-black border-end">2</td>
+                    <td class="border border-black border-end">61-120</td>
+                    <td class="border border-black border-end">
+                      light to moderate damage
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-black border-end">3</td>
+                    <td class="border border-black border-end">121-170</td>
+                    <td class="border border-black border-end">
+                      moderate to heavy damage
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-black border-end">4</td>
+                    <td class="border border-black border-end">171-220</td>
+                    <td class="border border-black border-end">
+                      heavy to very heavy damage
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-black border-end">5</td>
+                    <td class="border border-black border-end">
+                      more than 220
+                    </td>
+                    <td class="border border-black border-end">
+                      very heavy to widespread damage
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col px-4 p-lg-0">
+              <div class="wrapper">
+                <p
+                  class="animate__animated animated-element about-description mb-4"
+                >
+                  The Philippines is a typhoon prone country. As mentioned
+                  earlier, the country experiences an average of 20 typhoons in
+                  a year where most of which greatly caused severe damage. With
+                  this, it is very essential to know the actions to be
+                  implemented in order to be prepared in such calamity.
+                </p>
+                <div class="before">
+                  <h2
+                    class="content-title fw-bold display-5 text-center text-lg-start"
+                  >
+                    Before a <span class="span-title-color">Typhoon</span>
+                  </h2>
+                  <p
+                    class="animate__animated animated-element about-description mb-4"
+                  >
+                    At homes, families should always have an emergency kit .
+                    This kit should contain ready-to-eat food such as canned
+                    goods and water. It must also contain a flashlight and
+                    batteries in case the power supply shuts down. There should
+                    be first-aid kits in case of injuries after the disaster.
+                    Whistles may also be included to locate each other after the
+                    destruction easily. It may also be used as a signal for
+                    other people to know your exact location.
+                  </p>
+                </div>
+                <div class="during-typhoon">
+                  <h2
+                    class="content-title fw-bold display-5 text-center text-lg-end"
+                  >
+                    During a <span class="span-title-color">Typhoon</span>
+                  </h2>
+                  <p
+                    class="animate__animated animated-element about-description mb-4"
+                  >
+                    At homes, families should always have an emergency kit. This
+                    kit should contain ready-to-eat food such as canned goods
+                    and water. It must also contain a flashlight and batteries
+                    in case the power supply shuts down. There should be
+                    first-aid kits in case of injuries after the disaster.
+                    Whistles may also be included to locate each other after the
+                    destruction easily. It may also be used as a signal for
+                    other people to know your exact location.
+                  </p>
+                  <p class="animate__animated animated-element">
+                    Different types of homes would mean different hazards to
+                    experience during typhoons. People living in temporary
+                    structures or mobile homes are prone to hazards no matter
+                    how fastened the homes are to the ground. High-rise
+                    buildings will experience strong winds. It may help if
+                    people would move on or below the 10th floor. If you live in
+                    a house built near coasts expect storm surge.
+                  </p>
+                  <p class="animate__animated animated-element">
+                    A storm surge is a phenomenon where water piles up along a
+                    coastline due to low pressure and strong winds. If you
+                    happen to live near coastlines, take shelter in places
+                    farther from the sea. In the case of threat of storm surge,
+                    evacuate in places higher than 500 meters from the bay area.
+                  </p>
+                </div>
+                <div class="after-typhoon">
+                  <h2
+                    class="content-title fw-bold display-5 text-center text-lg-start"
+                  >
+                    After a <span class="span-title-color">Typhoon</span>
+                  </h2>
+                  <p
+                    class="animate__animated animated-element about-description mb-4"
+                  >
+                    Make sure that house is stable after a typhoon. Wait for the
+                    announcement of the government agency that it is safe to
+                    return to the house. Aside from PAGASA, the National
+                    Disaster Risk Reduction and Management (NDRMMC) is the
+                    government agency mandated to provide necessary information
+                    and implement plans which could help people to be prepared
+                    and to respond to numerous natural calamities such as
+                    earthquakes and typhoons. NDRRMC disseminates information
+                    through several means. For instance, it sends SMS messages
+                    to give flood warning signals to the people who are in the
+                    affected areas.
+                  </p>
+                  <p class="animate__animated animated-element">
+                    After the typhoon and provided that it is safe to the area
+                    nearby the house, make necessary repairs to your house.
+                    Report damaged electric lines and posts. Clean your
+                    surroundings. Check if someone from your family or
+                    neighborhood needs first aid.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 px-4 p-lg-0 my-5 text-center">
+              <div class="wrapper">
+                <h2 class="content-title fw-bold fs-2 text-center mb-4">
+                  What I have Learned
+                </h2>
+                <a class="btn btn-exam me-2" href="./exam.html">Take Exam</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./animate.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
