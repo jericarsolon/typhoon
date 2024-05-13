@@ -14,19 +14,19 @@ const questions = [
     question:
       "3. For at least how many hours can we expect a PSWS #3 tropical cyclones before it affects the locality?",
     options: ["36 hours", "24 hours", "18 hours", "12 hours"],
-    answer: 0,
+    answer: 2,
   },
   {
     question:
       "4. When a tropical cyclone passes over a certain place, it is the ______ that has greater wind speed?",
     options: ["eye", "eyewall", "rainbands", "directions"],
-    answer: 0,
+    answer: 1,
   },
   {
     question:
       "5. In which layer of the atmosphere, do all weather disturbances happen?",
     options: ["Thermosphere", "Mesosphere", "Stratosphere", "Troposphere"],
-    answer: 0,
+    answer: 3,
   },
   {
     question:
@@ -37,7 +37,7 @@ const questions = [
       "Typhoon",
       "Super typhoon",
     ],
-    answer: 0,
+    answer: 2,
   },
   {
     question:
@@ -48,19 +48,19 @@ const questions = [
       "Typhoon storm",
       "Typhoon",
     ],
-    answer: 0,
+    answer: 1,
   },
   {
     question:
       "8. What do we call the tropical cyclone that occurs in the Northwest Pacific Ocean?",
     options: ["Hurricane", "Tropical storm", "Typhoon", "None of the above"],
-    answer: 0,
+    answer: 2,
   },
   {
     question:
       "9. What happens when sea level rises and strong winds blow from offshore to the coastline area?",
     options: ["Tsunami", "Thunderstorms ", "Tropical storm", "Storm surge "],
-    answer: 0,
+    answer: 3,
   },
   {
     question:
@@ -71,7 +71,7 @@ const questions = [
       "Large ocean waves",
       "shaking of ground",
     ],
-    answer: 0,
+    answer: 3,
   },
 ];
 
