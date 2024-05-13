@@ -7,7 +7,7 @@ const questions = [
       "Caroline-Marianas area of the pacific",
       "Habagat",
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     question: "2. What is the basis in categorizing tropical cyclones?",
@@ -17,18 +17,18 @@ const questions = [
       "Amount of rainfall",
       "Wind speed",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
     question:
       "3. What can you say about the temperature of the bodies of water in the vicinity of he Philippines?",
     options: ["cold", "lukewarm", "warm", "warm and cold"],
-    answer: 0,
+    answer: 2,
   },
   {
     question: "4. Where do the tropical cyclones form?",
     options: ["on air", "in the ocean", "on land ", "on mountain"],
-    answer: 0,
+    answer: 1,
   },
   {
     question:
@@ -39,12 +39,12 @@ const questions = [
       "Typhoon",
       "Supertyphoon",
     ],
-    answer: 0,
+    answer: 1,
   },
   {
     question: "6. What causes damage in a hurricane/typhoon?",
     options: ["winds", "storm surge", "flooding", "all of the above"],
-    answer: 0,
+    answer: 3,
   },
   {
     question: "7. What is the difference between typhoons and hurricanes?",
@@ -54,7 +54,7 @@ const questions = [
       "strength of winds",
       "place of origin",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
     question: "8. How is the weather in the eye of a hurricane?",
@@ -65,7 +65,7 @@ const questions = [
     question:
       "9. What sea temperature is needed for tropical cyclones to form?",
     options: ["20.5°C", "26.5°C", "23.5°C", "27.5°C"],
-    answer: 0,
+    answer: 1,
   },
   {
     question:
@@ -76,12 +76,12 @@ const questions = [
       "Intense rainfall",
       "Winds pushing waves onshore",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
     question: "11. What is the most intense part of a tropical cyclone?",
     options: ["eye", "eyeball", "eyebands", "rain bands"],
-    answer: 0,
+    answer: 1,
   },
   {
     question: "12. What is the largest part of a tropical cyclone?",
@@ -96,7 +96,7 @@ const questions = [
       "tropical depression, tropical storm, typhoon, supertyphoon",
       "typhoon, tropical depression, tropical storm, supertyphoon",
     ],
-    answer: 0,
+    answer: 2,
   },
   {
     question: "14.  What does PAGASA mean?",
@@ -106,7 +106,7 @@ const questions = [
       "Philippine Atmospheric, Geophysical, and Astronomical Services Administration",
       "Philippine Atmospheric, Gravitational, and Astronomical Services   Administration",
     ],
-    answer: 0,
+    answer: 2,
   },
   {
     question:
